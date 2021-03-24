@@ -368,7 +368,7 @@ margin-left: 80%;
 	-moz-animation:    move-hide 1s ease-in-out 1 forwards;
 	-o-animation:      move-hide 1s ease-in-out 1 forwards;
 	animation:         move-hide 1s ease-in-out 1 forwards;
-	animation-delay: 8s;
+	animation-delay: 16s;
 }
 
 @keyframes move-hide {
