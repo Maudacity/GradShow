@@ -44,7 +44,26 @@ body {
 		opacity: 1;
 	}
 }
-
+.day{
+    color: white;
+    font-size: 4em;
+    position: absolute;
+    z-index: 10;
+    top: -3%;
+    left: -3%;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    animation-delay: 16s;
+    animation-name: counter;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transform: translateX(100vw);
+    opacity: 0;
+}
+	
 h2 {
 	font-family: Antonio, helvetica, serif;
 	color: white;
