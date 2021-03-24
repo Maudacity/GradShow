@@ -58,7 +58,7 @@ h2 {
     height: 100vh;
     justify-content: center;
     align-items: left 80%;
-    animation-delay: 8s;
+    animation-delay: 16s;
     animation-name: counter;
     animation-duration: 1s;
     animation-fill-mode: forwards;
