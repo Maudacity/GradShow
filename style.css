@@ -46,7 +46,7 @@ body {
 }
 .day{
     color: white;
-    font-size: 4em;
+    font-size: 3em;
     position: absolute;
     z-index: 10;
     top: -3%;
