@@ -44,13 +44,13 @@ body {
 		opacity: 1;
 	}
 }
-.day{
+.day {
     color: white;
     font-size: 3em;
     position: absolute;
-    z-index: 10;
+    z-index: 12;
     top: -1%;
-    left: -3%;
+    left: 30%;
     display: flex;
     width: 80vw;
     height: 80vh;
