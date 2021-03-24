@@ -46,11 +46,11 @@ body {
 }
 .day {
     color: white;
-    font-size: 42px;
+    font-size: 8px;
     position: absolute;
     z-index: 12;
-    top: -1%;
-    left: 30%;
+    top: 27%;
+    left: 11%;
     display: flex;
     width: 80vw;
     height: 80vh;
