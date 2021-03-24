@@ -413,10 +413,10 @@ margin-left: 80%;
 	opacity: 1;
 	left: 31.5%;
 	transform: scale(0.8);
-	-webkit-animation: move3 8s 1 forwards;
-	-moz-animation:    move3 8s 1 forwards;
-	-o-animation:      move3 8s 1 forwards;
-	animation:         move3 8s 1 forwards;
+	-webkit-animation: move3 16s 1 forwards;
+	-moz-animation:    move3 16s 1 forwards;
+	-o-animation:      move3 16s 1 forwards;
+	animation:         move3 16s 1 forwards;
 	animation-delay: 2s;
 }
 
@@ -450,10 +450,10 @@ margin-left: 80%;
 	top: 5%;
 	left: 31.5%;
 	transform: scale(0.8);
-	-webkit-animation: move4 8s 1 forwards;
-	-moz-animation:    move4 8s 1 forwards;
-	-o-animation:      move4 8s 1 forwards;
-	animation:         move4 8s 1 forwards;
+	-webkit-animation: move4 16s 1 forwards;
+	-moz-animation:    move4 16s 1 forwards;
+	-o-animation:      move4 16s 1 forwards;
+	animation:         move4 16s 1 forwards;
 		animation-delay: 2s;
 }
 
