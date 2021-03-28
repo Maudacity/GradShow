@@ -63,7 +63,28 @@ body {
     transform: translateX(100vw);
     opacity: 0;
 }
-	
+
+.day2 {
+    color: white;
+    font-size: 4px;
+    position: absolute;
+    z-index: 12;
+    top: 30%;
+    left: 24.5%;
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    animation-delay: 16s;
+    animation-name: counter;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transform: translateX(100vw);
+    opacity: 0;
+}
+
+
 h2 {
 	font-family: Antonio, helvetica, serif;
 	color: white;
