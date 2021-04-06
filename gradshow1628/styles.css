@@ -83,7 +83,8 @@ main {
   max-height: 90vh;
   min-height: 20em;
   margin: 5vh auto;
-  display: inline-block;
+  display: grid;
+  align-items: center;
 }
 
 .vid-container:before {
