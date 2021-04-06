@@ -1,0 +1,405 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+  color: white;
+  background-color: #DFDFDF;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/bg.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* font-family: 'Josefin Slab', serif; */
+
+p {
+  max-width: 36em;
+  margin: 0 auto 1em auto;
+}
+
+a,
+.watch-video {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover,
+.watch-video:hover {
+  text-decoration: none;
+}
+
+main {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.vid-container {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  min-height: 20em;
+  margin: 5vh auto;
+  display: inline-block;
+}
+
+.vid-container:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 2;
+}
+
+.vid-container:after {
+  content: '';
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: -1;
+  border: 0.25em solid white;
+}
+
+.top-blobs {
+  display: none;
+  position: absolute;
+  top: -7vh;
+  left: 25vw;
+  width: 50vw;
+  max-height: 20vh;
+  z-index: 2;
+}
+
+@media (min-width: 60em) {
+  .top-blobs {
+    display: block;
+  }
+}
+
+#playlist {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+#player {
+  max-width: 100%;
+  width: 100vw;
+  max-height: 90vh;
+  position: relative;
+  opacity: 0;
+  transition: opacity 2s linear 3s;
+  border: none;
+}
+
+.video-ended #player,
+.video-ended .mute-video,
+.video-ended .agenda {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+video {
+  max-width: 100%;
+  max-height: 90vh;
+  position: relative;
+}
+
+.intro-loop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: block;
+  margin: 0;
+}
+
+.hide-intro .intro-loop {
+  opacity: 0;
+  transition: opacity 3s linear 2s;
+}
+
+.hide-intro #player {
+  opacity: 1;
+}
+
+.mute-video {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 5em;
+  z-index: 3;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.05em;
+  text-shadow: 1px 1px #dfdfdf; 
+}
+
+.screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background: rgb(221,25,72);
+  background: linear-gradient(146deg, rgba(255,193,88,1) -50%,  rgba(221,25,72,1) 50%, rgba(95,0,255,1) 150%);
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  transform: tranlateY(0);
+  opacity: 1;
+  transition: transform 2.5s ease-in, opacity 0s linear 3s;
+  display: none;
+}
+
+.playing .screen {
+  transform: translateY(-100vh);
+  opacity: 0;
+}
+
+.remove-screen {
+  border: 1px solid;
+  cursor: pointer;
+  transform: scale(0);
+  position: relative;
+  text-align: center;
+  z-index: 3;
+  transition: transform 0.25s ease-out;
+}
+
+.remove-screen.btn-visible {
+  transform: scale(1);
+}
+
+.gather-town {
+  background: #dfdfdf;
+  display: none;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  opacity: 0;
+  padding: 1em;
+}
+
+@media (min-width: 40em) {
+  .gather-town {
+    font-size: 1.5em;
+  }
+}
+
+.video-ended .gather-town {
+  display: grid;
+  opacity: 1;
+}
+
+.video-ended .party-done,
+.video-ended.gathertown-ended .party-on {
+  display: none;
+}
+
+.video-ended .party-on,
+.video-ended.gathertown-ended .party-done {
+  display: block;
+}
+
+.button {
+  color: inherit;
+  background-color: transparent;
+  border: 2px solid;
+  text-align: center;
+  display: block;
+  width: 10em;
+  margin: 1em auto;
+  padding: 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  border-radius: 1.5em;
+}
+
+
+.agenda {
+  background-image: url(img/agenda-bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: -2rem;
+  right: -3rem;
+  z-index: 2;
+  width: 24rem;
+  height: 12rem;
+  text-align: center;
+  font-weight: 400;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 0 4.5rem;
+  display: none;
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+
+.agenda a {
+  text-decoration: none;
+  transition: opacity 0.5s;
+}
+
+.agenda a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+@media (min-width: 40em) {
+  .agenda {
+    display: grid;
+  }
+}
+
+.counter {
+  position: absolute;
+  top: -0.5em;
+  right: -1em;
+  background-image: url(img/counter-bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 0.5rem;
+  z-index: 3;
+  width: 15rem;
+  height: 7rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.counter span {
+  width: 1em;
+  display: inline-block;
+  text-align: right;
+}
+
+.bubbles {
+  position: absolute;
+  bottom: -2.5em;
+  left: -10em;
+  width: 15em;
+  z-index: 2;
+  max-width: 25vw;
+  display: none;
+}
+
+@media (min-width: 40em) {
+  .bubbles {
+    display: block;
+  }
+}
+
+.dots {
+  position: absolute;
+  bottom: 15em;
+  right: -1em;
+  width: 8em;
+  z-index: -1;
+}
+
+.dot-grid {
+  position: absolute;
+  left: -1em;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2em;
+  z-index: 2;
+} 
+
+.logo-bg {
+  background-image: url(img/logo-bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 13em;
+  height: 10em;
+}
+
+.logo {
+  position: relative;
+  width: 5em;
+  top: 0.75em;
+  left: 2.5em;
+}
+
+.fullscreen-video {
+  display: none;
+}

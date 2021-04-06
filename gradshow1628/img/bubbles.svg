@@ -1,0 +1,59 @@
+<svg width="383" height="300" viewBox="0 0 383 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M105.524 242.837C52.1296 220.888 26.6312 159.826 48.5719 106.452C70.5127 53.0779 131.584 27.6029 184.979 49.552C238.373 71.5011 263.872 132.563 241.931 185.937C219.99 239.311 158.919 264.786 105.524 242.837Z" fill="url(#paint0_linear)"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="290" height="290">
+<rect width="222.125" height="222.04" transform="matrix(-0.924903 -0.380204 -0.380204 0.924903 289.864 84.4526)" fill="url(#pattern0)"/>
+</mask>
+<g mask="url(#mask0)">
+<g opacity="0.6">
+<path opacity="0.6" d="M105.524 242.837C52.1296 220.888 26.6312 159.826 48.5719 106.452C70.5127 53.0779 131.584 27.6029 184.979 49.552C238.373 71.5011 263.872 132.563 241.931 185.937C219.99 239.311 158.919 264.786 105.524 242.837Z" fill="white"/>
+</g>
+</g>
+<path d="M350.497 166.204C362.109 163.725 373.531 171.125 376.009 182.732C378.488 194.339 371.084 205.759 359.472 208.238C347.86 210.717 336.438 203.318 333.959 191.71C331.481 180.103 338.885 168.684 350.497 166.204Z" fill="url(#paint1_linear)"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="328" y="160" width="55" height="55">
+<rect width="45.685" height="45.6676" transform="matrix(0.977957 -0.208807 -0.208807 -0.977957 337.618 214.5)" fill="url(#pattern1)"/>
+</mask>
+<g mask="url(#mask1)">
+<g opacity="0.6">
+<path opacity="0.6" d="M350.497 166.204C362.109 163.725 373.531 171.125 376.009 182.732C378.488 194.339 371.084 205.759 359.472 208.238C347.86 210.717 336.438 203.318 333.959 191.71C331.481 180.103 338.885 168.684 350.497 166.204Z" fill="white"/>
+</g>
+</g>
+<path d="M265.536 279.4C242.452 269.911 231.428 243.513 240.914 220.438C250.399 197.363 276.802 186.349 299.886 195.838C322.969 205.328 333.993 231.726 324.507 254.801C315.022 277.876 288.619 288.889 265.536 279.4Z" fill="url(#paint2_linear)"/>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="219" y="174" width="127" height="126">
+<rect width="96.0295" height="95.9928" transform="matrix(-0.924903 -0.380204 -0.380204 0.924903 345.229 210.928)" fill="url(#pattern2)"/>
+</mask>
+<g mask="url(#mask2)">
+<g opacity="0.6">
+<path opacity="0.6" d="M265.536 279.4C242.452 269.911 231.428 243.513 240.914 220.438C250.399 197.363 276.802 186.349 299.886 195.838C322.969 205.328 333.993 231.726 324.507 254.801C315.022 277.876 288.619 288.889 265.536 279.4Z" fill="white"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0"/>
+</pattern>
+<linearGradient id="paint0_linear" x1="241.738" y1="105.901" x2="48.8601" y2="186.444" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00FFAB"/>
+<stop offset="0.3419" stop-color="#00C3FF"/>
+<stop offset="0.7301" stop-color="#145FFF"/>
+<stop offset="1" stop-color="#592BFF"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="343.292" y1="205.27" x2="366.666" y2="169.191" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00FFAB"/>
+<stop offset="0.3419" stop-color="#00C3FF"/>
+<stop offset="0.7301" stop-color="#145FFF"/>
+<stop offset="1" stop-color="#592BFF"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="324.424" y1="220.2" x2="241.038" y2="255.02" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00FFAB"/>
+<stop offset="0.3419" stop-color="#00C3FF"/>
+<stop offset="0.7301" stop-color="#145FFF"/>
+<stop offset="1" stop-color="#592BFF"/>
+</linearGradient>
+<image id="image0" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA"/>
+</defs>
+</svg>
