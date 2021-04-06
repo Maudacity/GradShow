@@ -308,6 +308,7 @@ video {
 .agenda a {
   text-decoration: none;
   transition: opacity 0.5s;
+  color: white;
 }
 
 .agenda a:hover {
