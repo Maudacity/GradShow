@@ -200,6 +200,72 @@ video {
   opacity: 1;
 }
 
+.mute-video:before {
+    content: 'CLICK TO UNMUTE';
+    position: absolute;
+    width: 8em;
+    left: calc(50% - 4em);
+    top: -1.5em;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    text-shadow: none;
+    animation-name: unmute;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes unmute {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    10% {
+        transform: translateY(-0.5em);
+        opacity: 1;
+    }
+    20% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    30% {
+        transform: translateY(-0.5em);
+        opacity: 1;
+    }
+    40% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-0.5em);
+        opacity: 1;
+    }
+    60% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    70% {
+        transform: translateY(-0.5em);
+        opacity: 1;
+
+    }
+    80% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    90% {
+        transform: translateY(-0.5em);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+}
+
 .screen {
   position: fixed;
   top: 0;
