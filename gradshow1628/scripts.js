@@ -152,14 +152,16 @@ function onPlayerReady(event) {
         intro.muted = false        
       }
       player.unMute()
-      mute.textContent = 'mute'
+      //mute.textContent = 'mute'
+      mute.classList.remove('muted')
       console.log('unmuted')
     } else {
       if (!intro.muted) {
         intro.muted = true
       }
       player.mute()
-      mute.textContent = 'unmute'
+      //mute.textContent = 'unmute'
+      mute.classList.add('muted')
       console.log('muted')      
     }
   }
