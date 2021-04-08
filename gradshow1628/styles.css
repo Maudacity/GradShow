@@ -177,14 +177,27 @@ video {
 .mute-video {
   display: block;
   position: absolute;
-  bottom: 0;
-  left: 5em;
+  bottom: 1em;
+  left: 6em;
   z-index: 3;
   cursor: pointer;
   text-transform: uppercase;
   color: white;
   letter-spacing: 0.05em;
   text-shadow: 1px 1px #dfdfdf; 
+}
+
+.mute-video svg {
+    width: 2em;
+}
+
+.mute-video .mute-svg-2 {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.muted.mute-video .mute-svg-2 {
+  opacity: 0;
 }
 
 .screen {
