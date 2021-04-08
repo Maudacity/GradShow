@@ -192,12 +192,12 @@ video {
 }
 
 .mute-video .mute-svg-2 {
-  opacity: 1;
+  opacity: 0;
   transition: opacity 0.5s;
 }
 
 .muted.mute-video .mute-svg-2 {
-  opacity: 0;
+  opacity: 1;
 }
 
 .screen {
