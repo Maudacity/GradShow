@@ -1,0 +1,69 @@
+<svg width="1920" height="1352" viewBox="0 0 1920 1352" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g style="mix-blend-mode:color-dodge" opacity="0.5">
+<path d="M63.5433 -756.766C310.084 -897.574 514.577 -830.313 732.411 -695.571C918.815 -580.252 1095.36 -410.701 1310.75 -382.133C1525.48 -353.656 1719.27 -415.06 1902.46 -297.675C2148.05 -140.315 2143.86 124.944 2018.31 314.144C1844.23 576.503 1530.84 578.452 1305.52 426.775C1119.04 301.274 924.001 164.061 680.465 190.199C456.131 214.275 206.509 407.239 -18.8123 285.841C-274.384 148.155 -392.403 -496.379 63.5433 -756.766Z" fill="url(#paint0_linear)"/>
+</g>
+<g opacity="0.3">
+<rect width="473.707" height="473.526" transform="matrix(1 0 0 -1 1125.39 1003.18)" fill="url(#pattern0)"/>
+</g>
+<g opacity="0.4">
+<rect width="640.898" height="640.653" transform="matrix(1 0 0 -1 899.938 268.832)" fill="url(#pattern1)"/>
+</g>
+<g opacity="0.3">
+<rect width="382.512" height="382.366" transform="matrix(1 0 0 -1 608.621 939.872)" fill="url(#pattern2)"/>
+</g>
+<g opacity="0.4">
+<rect width="861.286" height="992.633" transform="matrix(1 0 0 -1 -93.0742 1215.88)" fill="url(#pattern3)"/>
+</g>
+<g opacity="0.4">
+<rect width="1000.61" height="866.021" transform="matrix(1 0 0 -1 1178.59 1304.51)" fill="url(#pattern4)"/>
+</g>
+<g style="mix-blend-mode:color-dodge" opacity="0.53">
+<path d="M383.043 -499.726C654.454 -583.066 839.229 -472.614 1022.23 -293.4C1178.82 -140.024 1313.91 64.1035 1517.79 139.191C1721.06 214.047 1923.6 196.615 2076.6 351.302C2281.72 558.669 2219.49 816.557 2055.52 973.635C1828.16 1191.45 1521.96 1124.66 1335.37 927.279C1180.94 763.954 1020.72 587.323 777.38 559.44C553.225 533.756 267.375 667.308 74.1445 499.471C-145.03 309.111 -118.893 -345.618 383.043 -499.726Z" fill="url(#paint1_linear)"/>
+</g>
+<g style="mix-blend-mode:color-dodge" opacity="0.62">
+<path d="M248.773 602.297C332.219 606.691 363.993 665.138 385.006 746.185C402.984 815.543 407.739 899.198 449.806 948.171C491.746 996.994 547.314 1015.12 564.156 1084.49C586.738 1177.48 531.848 1255.68 465.454 1288.43C373.389 1333.84 303.33 1275.54 284.098 1188.04C268.175 1115.64 252.731 1038.14 193.279 1000.17C138.514 965.189 43.7739 975.747 18.3819 897.266C-10.4213 808.253 94.4537 594.166 248.773 602.297Z" fill="url(#paint2_linear)"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image2"/>
+</pattern>
+<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image3"/>
+</pattern>
+<pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image4"/>
+</pattern>
+<linearGradient id="paint0_linear" x1="1033.06" y1="-443.577" x2="709.215" y2="631.811" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="0.2295" stop-color="#050505"/>
+<stop offset="0.4926" stop-color="#131313"/>
+<stop offset="0.7711" stop-color="#292929"/>
+<stop offset="1" stop-color="#424242"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="1260.32" y1="18.3691" x2="708.626" y2="996.614" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="0.2295" stop-color="#050505"/>
+<stop offset="0.4926" stop-color="#131313"/>
+<stop offset="0.7711" stop-color="#292929"/>
+<stop offset="1" stop-color="#424242"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="400.576" y1="877.702" x2="70.4789" y2="1069.23" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="0.2295" stop-color="#050505"/>
+<stop offset="0.4926" stop-color="#131313"/>
+<stop offset="0.7711" stop-color="#292929"/>
+<stop offset="1" stop-color="#424242"/>
+</linearGradient>
+<image id="image0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALsAAAC7CAYAAAA9kO9qAAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+<image id="image1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP0AAAD9CAYAAAB3NXH8AAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+<image id="image2" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAACXCAYAAAAYn8l5AAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+<image id="image3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVQAAAGICAYAAAAebhjhAAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+<image id="image4" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYsAAAFWCAYAAACYQLF6AAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+</defs>
+</svg>

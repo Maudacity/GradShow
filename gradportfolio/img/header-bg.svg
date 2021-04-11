@@ -1,0 +1,75 @@
+<svg width="2579" height="2536" viewBox="0 0 2579 2536" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0)">
+<rect width="2578" height="2535.11" transform="translate(0.201172)" fill="#E5E5E5"/>
+<g style="mix-blend-mode:color-dodge" opacity="0.5">
+<path d="M435.543 427.234C682.084 286.426 886.577 353.687 1104.41 488.429C1290.81 603.748 1467.36 773.299 1682.75 801.867C1897.48 830.344 2091.27 768.94 2274.46 886.325C2520.05 1043.69 2515.86 1308.94 2390.31 1498.14C2216.23 1760.5 1902.84 1762.45 1677.52 1610.78C1491.04 1485.27 1296 1348.06 1052.46 1374.2C828.131 1398.27 578.509 1591.24 353.188 1469.84C97.6156 1332.16 -20.4032 687.621 435.543 427.234Z" fill="url(#paint0_linear)"/>
+</g>
+<g opacity="0.3">
+<rect width="473.707" height="473.526" transform="matrix(1 0 0 -1 1497.39 2187.18)" fill="url(#pattern0)"/>
+</g>
+<g opacity="0.4">
+<rect width="640.898" height="640.653" transform="matrix(1 0 0 -1 1271.94 1452.83)" fill="url(#pattern1)"/>
+</g>
+<g opacity="0.3">
+<rect width="382.512" height="382.366" transform="matrix(1 0 0 -1 980.621 2123.87)" fill="url(#pattern2)"/>
+</g>
+<g opacity="0.4">
+<rect width="861.286" height="992.633" transform="matrix(1 0 0 -1 278.926 2399.88)" fill="url(#pattern3)"/>
+</g>
+<g opacity="0.4">
+<rect width="1000.61" height="866.021" transform="matrix(1 0 0 -1 1550.59 2488.51)" fill="url(#pattern4)"/>
+</g>
+<g style="mix-blend-mode:color-dodge" opacity="0.53">
+<path d="M755.043 684.274C1026.45 600.934 1211.23 711.386 1394.23 890.6C1550.82 1043.98 1685.91 1248.1 1889.79 1323.19C2093.06 1398.05 2295.6 1380.61 2448.6 1535.3C2653.72 1742.67 2591.49 2000.56 2427.52 2157.64C2200.16 2375.45 1893.96 2308.66 1707.37 2111.28C1552.94 1947.95 1392.72 1771.32 1149.38 1743.44C925.225 1717.76 639.375 1851.31 446.145 1683.47C226.97 1493.11 253.107 838.382 755.043 684.274Z" fill="url(#paint1_linear)"/>
+</g>
+<g style="mix-blend-mode:color-dodge" opacity="0.62">
+<path d="M620.773 1786.3C704.219 1790.69 735.993 1849.14 757.006 1930.18C774.984 1999.54 779.739 2083.2 821.806 2132.17C863.746 2180.99 919.314 2199.12 936.156 2268.49C958.738 2361.48 903.848 2439.68 837.454 2472.43C745.389 2517.84 675.33 2459.54 656.098 2372.04C640.175 2299.64 624.731 2222.14 565.279 2184.17C510.514 2149.19 415.774 2159.75 390.382 2081.27C361.579 1992.25 466.454 1778.17 620.773 1786.3Z" fill="url(#paint2_linear)"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image2"/>
+</pattern>
+<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image3"/>
+</pattern>
+<pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image4"/>
+</pattern>
+<linearGradient id="paint0_linear" x1="1405.06" y1="740.423" x2="1081.21" y2="1815.81" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="0.2295" stop-color="#050505"/>
+<stop offset="0.4926" stop-color="#131313"/>
+<stop offset="0.7711" stop-color="#292929"/>
+<stop offset="1" stop-color="#424242"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="1632.32" y1="1202.37" x2="1080.63" y2="2180.61" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="0.2295" stop-color="#050505"/>
+<stop offset="0.4926" stop-color="#131313"/>
+<stop offset="0.7711" stop-color="#292929"/>
+<stop offset="1" stop-color="#424242"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="772.576" y1="2061.7" x2="442.479" y2="2253.23" gradientUnits="userSpaceOnUse">
+<stop/>
+<stop offset="0.2295" stop-color="#050505"/>
+<stop offset="0.4926" stop-color="#131313"/>
+<stop offset="0.7711" stop-color="#292929"/>
+<stop offset="1" stop-color="#424242"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="2578" height="2535.11" fill="white" transform="translate(0.201172)"/>
+</clipPath>
+<image id="image0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALsAAAC7CAYAAAA9kO9qAAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+<image id="image1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP0AAAD9CAYAAAB3NXH8AAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+<image id="image2" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAACXCAYAAAAYn8l5AAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+<image id="image3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVQAAAGICAYAAAAebhjhAAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+<image id="image4" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYsAAAFWCAYAAACYQLF6AAAACXBIWXMAAAsSAAALEgHS3X78AAAA"/>
+</defs>
+</svg>
