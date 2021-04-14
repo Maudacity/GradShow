@@ -774,6 +774,11 @@ header p {
 	width: 7em;
 }
 
+.sponsors-vector a:last-child img {
+    transform: scale(1.2);
+    margin-left: 0.5em;
+}
+
 @media (min-width: 25em) {
 	.sponsors-vector {
 		grid-template-columns: repeat(2, auto);
