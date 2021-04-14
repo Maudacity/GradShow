@@ -565,7 +565,7 @@ function generateGrads() {
 			}
 
 			if (grad['email'] && (grad['email'] != '')) {
-				email = `<a href="${grad['email']}" target="_blank"><img src="img/icon-email.svg" alt="email"></a>`
+				email = `<a href="mailto:${grad['email']}" target="_blank"><img src="img/icon-email.svg" alt="email"></a>`
 			}
 
 			if (grad['work-1'] && (grad['work-1'] != '')) {
