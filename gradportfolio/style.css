@@ -774,7 +774,7 @@ header p {
 
 @media (min-width: 25em) {
 	.sponsors-gift {
-		grid-template-columns: 100%;
+		grid-template-columns: repeat(3, auto);
 	}
 }
 
