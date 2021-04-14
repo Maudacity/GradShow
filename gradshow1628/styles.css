@@ -532,7 +532,7 @@ video {
 
 .sponsors-gift {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 100%;
   justify-content: center;
   align-items: center;
   grid-gap: 1em;
@@ -548,6 +548,11 @@ video {
   width: 7em;
 }
 
+@media (min-width: 25em) {
+  .sponsors-gift {
+    grid-template-columns: repeat(3, auto);
+  }
+}
 
 
 footer {
