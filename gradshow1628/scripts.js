@@ -2,7 +2,7 @@
 
 
 let gathertownurl = 'https://gather.town/app/WXLJ1kTMsJu7IF4U/disfordesign'
-let datetime = 'April 14, 2021 11:25:00' // 'April 15, 2021 16:00:00'
+let datetime = 'April 14, 2021 11:32:00' // 'April 15, 2021 16:00:00'
 let youtubeId = 'smrGiT0brQ8'
 let serverOrigin = 'https://disfordesign.ca/'  // 'http://localhost:8080'
 
@@ -34,6 +34,7 @@ function countdown(datetime, selector, message) {
     
     if (diff < 1) {
       clearInterval(x)
+      document.querySelector('.intro-loop').pause()
       if (diff > -420000) {
         console.log('show is happening now')
         startVideo()
