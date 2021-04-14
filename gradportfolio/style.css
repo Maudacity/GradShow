@@ -727,16 +727,18 @@ header p {
 	font-family: 'Antonio';
 	text-transform: uppercase;
 	text-align: center;
+	grid-column: 1 / -1;
 }
 
 .sponsors-vector {
 	display: grid;
-	grid-template-columns: 100%;
-	justify-content: center;
-	align-items: center;
-	grid-gap: 1em;
-	justify-items: center;
-	margin: 5em auto 2em auto;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+    justify-items: center;
+    margin: 5em auto 2em auto;
+    grid-column-gap: 2em;
 }
 
 .sponsors a {
@@ -773,8 +775,11 @@ header p {
 }
 
 @media (min-width: 25em) {
+	.sponsors-vector {
+		grid-template-columns: repeat(2, auto);
+	}
 	.sponsors-gift {
-		grid-template-columns: repeat(3, auto);
+		grid-template-columns: repeat(2, auto);
 	}
 }
 

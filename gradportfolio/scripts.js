@@ -244,7 +244,7 @@ let grads = [
 	'work-3': 'img/grads/srdj-work-3.png',
 	'bg': 'img/grads/srdj-bg.png',
 	'website': 'https://www.instagram.com/surgeon_todorovic_/',
-	'pdf': '',
+	'pdf': 'https://drive.google.com/file/d/1D522slWqF4-z5-6Dt2d2MiFbas7FRaII/view?usp=sharing',
 	'email': 'todorovicdesigns@gmail.com',
 	'bio': `Srdjan(surgeon) is a graphic designer currently living in Niagara Falls, Ontario. His interest in art and illustration led him to graphic design. Through graphic design Srdj(serge) discovered that what he liked illustrating the most is type. From calligraphy to death metal lettering. In the future, Srdj is looking to pursue more typographic adventures and explore sign painting.`,
 	'filters': ['editorial', 'typography', 'illustration']
@@ -347,7 +347,7 @@ let grads = [
 	'work-2': 'img/grads/camila-work-2.png',
 	'bg': 'img/grads/camila-bg.png',
 	'website': '',
-	'pdf': '',
+	'pdf': 'https://drive.google.com/file/d/1cyFQEkojkdtfj8CRfq0I916hrwvjgmbt/view?usp=sharing',
 	'email': 'https://drive.google.com/file/d/1cyFQEkojkdtfj8CRfq0I916hrwvjgmbt/view?usp=sharing',
 	'bio': `Camila is a graphic designer currently living in St. Catharines, Ontario. Originally from Colombia, she moved to Canada to pursue a education in the Niagara College's Graphic Design program. Camila is always eager to learn more and likes to take on challeneges that will help delevop her skills. She is most passionate about motion design and illustration.`,
 	'filters': ['motion-design', 'illustration']
@@ -361,7 +361,7 @@ let grads = [
 	'work-2': 'img/grads/hena-work-2.png',
 	'work-3': 'img/grads/hena-work-3.png',
 	'bg': 'img/grads/hena-bg.png',
-	'website': '',
+	'website': 'https://heeeena.github.io/',
 	'pdf': 'https://drive.google.com/file/d/1eiQBhFoT7J2Hixd7JdXoxiqNO-Yw51UA/view?usp=sharing',
 	'email': '',
 	'bio': `Hyoeun Shim (Hena) is Korean graphic designer, based in Welland Ontario, and will graduated from the graphic design program on Niagara College. She specializes in illustration, branding, editorial design, and photography.`,
@@ -392,7 +392,7 @@ let grads = [
 	'work-3': 'img/grads/jungim-work-3.png',
 	'bg': 'img/grads/jungim-bg.png',
 	'website': 'https://jayplayground.com',
-	'pdf': 'https://drive.google.com/file/d/1KST_mpjxV73v-hSOZc-rTGJpOQcsa44n/view?usp=sharing',
+	'pdf': 'https://drive.google.com/file/d/1LBSh5KAbeQLctqilVoKzaDI4q1CQFqTp/view?usp=sharing',
 	'email': 'jungimp.graphic@gmail.com',
 	'bio': `Jungim is a graphic designer who graduated from Niagara College in Canada. She loves to experience new even if that is challenging. That mind led her to study graphic design in Canada. Jungim is specifically passionate about illustration and branding as well as UI/UX. She is looking forward to showing her ability as a graphic designer.`,
 	'filters': ['ux-ui', 'logos-branding', 'illustration']
@@ -480,7 +480,7 @@ let grads = [
 	'work-3': 'img/grads/madison-work-3.png',
 	'bg': 'img/grads/madison-bg.png',
 	'website': '',
-	'pdf': '',
+	'pdf': 'https://drive.google.com/file/d/1QUJVhGAGMbzVwpBM37vGCGmPr5sksUq8/view?usp=sharing',
 	'email': 'madisonmhwilliams@gmail.com',
 	'bio': `Madison is a Canadian graphic designer currently based in Niagara Falls, Ontario. She specializes in digital illustrations, branding, and social media marketing. She is determined to increase her skills and abilities in the design world. `,
 	'filters': ['logos-branding', 'illustration', 'social-media-marketing']
