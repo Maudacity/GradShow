@@ -756,7 +756,7 @@ header p {
 
 .sponsors-gift {
 	display: grid;
-	grid-template-columns: auto auto    ;
+	grid-template-columns: 100%;
 	justify-content: center;
 	align-items: center;
 	grid-gap: 1em;
@@ -772,6 +772,11 @@ header p {
 	width: 7em;
 }
 
+@media (min-width: 25em) {
+	.sponsors-gift {
+		grid-template-columns: 100%;
+	}
+}
 
 
 
