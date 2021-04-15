@@ -2,7 +2,7 @@
 
 
 let gathertownurl = 'https://gather.town/app/WXLJ1kTMsJu7IF4U/disfordesign'
-let datetime = 'April 14, 2021 22:05:00' //'April 15, 2021 16:00:00'
+let datetime = 'April 15, 2021 16:00:00'
 let youtubeId =  'Mzw2lhFLtXM' // 'smrGiT0brQ8'
 let serverOrigin = 'https://disfordesign.ca/'  // 'http://localhost:8080'
 
