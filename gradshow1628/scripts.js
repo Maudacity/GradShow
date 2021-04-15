@@ -32,7 +32,7 @@ function countdown(datetime, selector, message) {
 
     //console.log(diff)
     
-    if (diff < 1) {
+    if (diff < 1 && vidReady === true) {
       clearInterval(x)
       document.querySelector('.intro-loop').pause()
       if (diff > -420000) {
