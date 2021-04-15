@@ -735,7 +735,7 @@ header p {
     grid-template-columns: 100%;
     justify-content: center;
     align-items: center;
-    grid-gap: 1em;
+    grid-gap: 2em 1em;
     justify-items: center;
     margin: 5em auto 2em auto;
     grid-column-gap: 2em;
