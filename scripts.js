@@ -680,6 +680,32 @@ filterGrads()
 
 
 
+/* SHOW+PLAY/STOP+HIDE HIGHLIGHT VIDEO
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+function highlightVideo() {
+	if (document.querySelector('.video-overlay')) {
+		let vid = document.querySelector('.video-overlay video')
+		let overlay = document.querySelector('.video-overlay')
+		let close = document.querySelector('.close-overlay')
+		let open = document.querySelector('.open-overlay')
+
+		open.addEventListener('click', function() {
+			overlay.id = 'show-overlay'
+			vid.play()
+		})
+
+		close.addEventListener('click', function() {
+			overlay.id = ''
+			vid.pause()
+		})
+	}
+}
+
+highlightVideo()
+
+
+
 
 
 
